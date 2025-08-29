@@ -1,0 +1,46 @@
+[package]
+name = "boost_geometry"
+description = "Boost C++ library boost_geometry packaged using Zanbil"
+version = "0.1.0"
+edition = "2024"
+links = "boost_geometry"
+license = "BSL-1.0"
+repository = "https://github.com/zanbilify/boost_geometry"
+
+[package.metadata.zanbil]
+make_dependencies_public = true
+
+[dependencies]
+boost_algorithm = { version = "0.1.0", path = "../boost_algorithm" }
+boost_any = { version = "0.1.0", path = "../boost_any" }
+boost_array = { version = "0.1.0", path = "../boost_array" }
+boost_assert = { version = "0.1.0", path = "../boost_assert" }
+boost_concept_check = { version = "0.1.0", path = "../boost_concept_check" }
+boost_config = { version = "0.1.0", path = "../boost_config" }
+boost_container = { version = "0.1.0", path = "../boost_container" }
+boost_core = { version = "0.1.0", path = "../boost_core" }
+boost_function_types = { version = "0.1.0", path = "../boost_function_types" }
+boost_fusion = { version = "0.1.0", path = "../boost_fusion" }
+boost_integer = { version = "0.1.0", path = "../boost_integer" }
+boost_iterator = { version = "0.1.0", path = "../boost_iterator" }
+boost_lexical_cast = { version = "0.1.0", path = "../boost_lexical_cast" }
+boost_math = { version = "0.1.0", path = "../boost_math" }
+boost_mpl = { version = "0.1.0", path = "../boost_mpl" }
+boost_multiprecision = { version = "0.1.0", path = "../boost_multiprecision" }
+boost_numeric_conversion = { version = "0.1.0", path = "../boost_numeric_conversion" }
+boost_polygon = { version = "0.1.0", path = "../boost_polygon" }
+boost_qvm = { version = "0.1.0", path = "../boost_qvm" }
+boost_range = { version = "0.1.0", path = "../boost_range" }
+boost_rational = { version = "0.1.0", path = "../boost_rational" }
+boost_serialization = { version = "0.1.0", path = "../boost_serialization" }
+boost_static_assert = { version = "0.1.0", path = "../boost_static_assert" }
+boost_thread = { version = "0.1.0", path = "../boost_thread" }
+boost_throw_exception = { version = "0.1.0", path = "../boost_throw_exception" }
+boost_tokenizer = { version = "0.1.0", path = "../boost_tokenizer" }
+boost_tuple = { version = "0.1.0", path = "../boost_tuple" }
+boost_type_traits = { version = "0.1.0", path = "../boost_type_traits" }
+boost_variant = { version = "0.1.0", path = "../boost_variant" }
+boost_variant2 = { version = "0.1.0", path = "../boost_variant2" }
+
+[build-dependencies]
+zanbil-boost-build = "0.1.0"
